@@ -1,0 +1,72 @@
+body {
+	background-color: rgb(32, 32, 32);
+}
+
+h1,
+h2,
+h6,
+li,
+.hobby-name {
+	color: rgb(255, 255, 255);
+}
+
+/* Navbar */
+
+.underline {
+	background-color: rgb(74, 74, 74);
+}
+
+.unselected:hover {
+	background-color: rgb(163, 163, 163);
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#theme {
+	border: 1px solid rgb(255, 255, 255);
+}
+
+#circle {
+	background-color: rgb(255, 255, 255);
+	top: 50%;
+	left: 5%;
+	transform: translateY(-50%);
+}
+
+hr {
+	background-color: rgb(255, 255, 255);
+}
+
+/* Table */
+
+table,
+td {
+	border: 1px solid #fff;
+}
+
+table {
+	background-color: #353535;
+}
+
+td {
+	color: #fff;
+}
+
+td a {
+	color: #00bcd4;
+}
+
+/* Campus life */
+
+.facility-introduction {
+	color: rgb(255, 255, 255);
+}
+
+.facility-image {
+	border: 1px solid white;
+}
+
+/* Footer */
+
+footer i {
+	color: rgb(255, 255, 255);
+}
