@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	background-color: rgb(32, 32, 32);
+}
+
+hr {
+	border: none;
+	height: 1px;
+}
+
+@media only screen and (min-width: 1000px) {
+	/* navbar */
+	h1 {
+		font-size: 2rem;
+	}
+
+	li {
+		font-size: 1.2rem;
+	}
+
+	.nav-item {
+		width: 130px;
+	}
+
+	.me-description h2 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 1.2rem;
+	}
+}
