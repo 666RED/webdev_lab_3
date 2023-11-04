@@ -4,9 +4,9 @@ const darkTheme = JSON.parse(localStorage.getItem("pageTheme")) || [];
 
 // for every page load
 if (darkTheme.length == 0 || darkTheme.theme) {
-	themeStylesheet.href = "/css/dark-theme.css";
+	themeStylesheet.href = "css/dark-theme.css";
 } else {
-	themeStylesheet.href = "/css/light-theme.css";
+	themeStylesheet.href = "css/light-theme.css";
 }
 
 themeToggler.addEventListener("click", () => {
@@ -22,10 +22,10 @@ themeToggler.addEventListener("click", () => {
 	darkTheme.theme = !darkTheme.theme;
 
 	if (darkTheme.theme) {
-		themeStylesheet.href = "/css/dark-theme.css";
+		themeStylesheet.href = "css/dark-theme.css";
 		localStorage.setItem("pageTheme", JSON.stringify({ theme: true }));
 	} else {
-		themeStylesheet.href = "/css/light-theme.css";
+		themeStylesheet.href = "css/light-theme.css";
 		localStorage.setItem("pageTheme", JSON.stringify({ theme: false }));
 	}
 });
