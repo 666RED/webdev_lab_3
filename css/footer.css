@@ -10,6 +10,11 @@ footer {
 	padding-top: 20px;
 }
 
+.icon-row {
+	display: flex;
+	align-items: center;
+}
+
 footer a {
 	text-decoration: none;
 }
